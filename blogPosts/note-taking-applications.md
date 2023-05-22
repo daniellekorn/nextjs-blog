@@ -1,3 +1,8 @@
+---
+title: 'Get it Together: The Top 7 Note-Taking Applications for Parents'
+date: 05/22/2023
+---
+
 # Get it Together: The Top 7 Note-Taking Applications for Parents
 
 With so much on our plates, it’s no wonder us parents need a gazillion lists to keep things in order: work tasks, personal tasks, kids’ tasks, home tasks, the list of lists seems never-ending. With the right note-taking application, we can conquer our to-do lists, keep track of important information, and maintain a semblance of sanity.
