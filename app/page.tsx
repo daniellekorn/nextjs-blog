@@ -1,4 +1,3 @@
-import fs from "fs";
 import Tagline from "./components/Tagline"
 import Posts from "./components/Posts"
 
