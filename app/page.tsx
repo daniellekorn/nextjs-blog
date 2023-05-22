@@ -1,6 +1,16 @@
 import fs from "fs";
 import Link from "next/link";
 
+const MainIntro = () => {
+  return (
+    <>
+      <p>Overcome self-doubt. Embrace possibilities.</p>
+      <h1>Tech insights for modern moms</h1>
+      <p>Empowering you to enter the professional tech world, organize your life and mind, and even launch your own business.</p>
+    </>
+  )
+}
+
 const getPostMetadata = () => {
   const folder = "posts/";
   const files = fs.readdirSync(folder);
@@ -19,9 +29,8 @@ export default function Home() {
     </div>
   ))
   return (
-    <div>
-        <div>Tech insights for modern moms</div>
-        <div>{postPreviews}</div>
-    </div>
+    <main>
+        <MainIntro/>
+    </main>
   )
 }
