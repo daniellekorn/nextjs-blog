@@ -13,7 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
+      <body className="font-sans flex flex-col justify-center items-center p-8">
         <Navbar/>
         {children}
       </body>
