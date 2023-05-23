@@ -9,7 +9,7 @@ With so much on our plates, it’s no wonder us parents need a gazillion lists t
 
 In this article, I’ll tell you about the top seven note-taking application options that are perfect for parents. Learn how these tools can streamline family organization and help you manage the chaos of daily life. Say goodbye to lost notes or squinting to decipher scribbles!
 
-## What is note-taking application?
+## What is a note-taking application?
 
 A note-taking application is like having a supercharged digital assistant that helps us keep our lives in order. These digital applications are designed to capture, organize, and store information in a convenient and searchable manner.
 
