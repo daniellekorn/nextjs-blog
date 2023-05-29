@@ -15,7 +15,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="flex items-center justify-center min-h-screen bg-gray-100">
           <Navbar/>
-          <div className="flex flex-col items-center justify-center h-full">
+          <div className="flex flex-col h-full">
             <div className="max-w-4xl py-8 mx-auto">
               {children}
             </div>
