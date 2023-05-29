@@ -5,9 +5,11 @@ export default function Hero() {
       <header className="py-16">
         <div className="container flex items-center justify-between px-4 mx-auto">
           <div className="w-1/2">
-            <p className="mb-2 text-lg font-bold">Overcome self-doubt. Embrace possibilities.</p>
-            <h1 className="mb-4 text-3xl font-bold">Tech insights for modern moms</h1>
-            <h2 className="text-gray-700">Empowering you to enter the professional tech world, organize your life and mind, and even launch your own business.</h2>
+            <div className="p-8">
+              <p className="mb-2 text-lg font-bold">Overcome self-doubt. Embrace possibilities.</p>
+              <h1 className="mb-4 text-3xl font-bold">Tech insights for modern moms</h1>
+              <h2 className="text-gray-700">Empowering you to enter the professional tech world, organize your life and mind,<br/> and even launch your own business.</h2>
+            </div>
           </div>
           <div className="w-1/2">
             <Image
