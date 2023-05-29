@@ -5,7 +5,7 @@ export default function Posts() {
   const posts = getSortedPostsData();
 
   return (
-    <section className="py-8 bg-teal-100">
+    <section className="py-8 bg-teal-50">
       <div className="container px-4 mx-auto">
         <h2 className="mb-4 text-xl font-bold text-center lg:text-2xl">
           Recent posts
