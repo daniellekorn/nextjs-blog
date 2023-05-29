@@ -8,9 +8,9 @@ export default function Navbar() {
                     <Link href="/" className="font-bold leading-tight text-teal-600 md:text-lg lg:text-xl md:inline-block md:mt-0 hover:text-teal-800">Danielle Korn</Link>
                 </div>
                 <div className="flex items-center mt-4 md:mt-0">
-                    <Link href="/about" className="block mt-2 mr-6 font-bold leading-tight text-teal-800 md:text-lg lg:text-xl md:inline-block md:mt-0 hover:text-teal-600">About</Link>
-                    <Link href="/posts" className="block mt-2 mr-6 font-bold leading-tight text-teal-800 md:text-lg lg:text-xl md:inline-block md:mt-0 hover:text-teal-600">Blog</Link>
-                    <Link href="/contact" className="block mt-2 mr-6 font-bold leading-tight text-teal-800 md:text-lg lg:text-xl md:inline-block md:mt-0 hover:text-teal-600">Contact</Link>
+                    <Link href="/about" className="block mt-2 mr-6 leading-tight text-teal-800 semi-bold md:text-lg lg:text-xl md:inline-block md:mt-0 hover:text-teal-600">About</Link>
+                    <Link href="/posts" className="block mt-2 mr-6 leading-tight text-teal-800 semi-bold md:text-lg lg:text-xl md:inline-block md:mt-0 hover:text-teal-600">Blog</Link>
+                    <Link href="/contact" className="block mt-2 mr-6 leading-tight text-teal-800 semi-bold md:text-lg lg:text-xl md:inline-block md:mt-0 hover:text-teal-600">Contact</Link>
                 </div>
             </div>
         </nav>
