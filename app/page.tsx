@@ -5,7 +5,9 @@ export default function Home() {
   return (
     <main>
         <Hero/>
-        <Posts/>
+        <div className="max-w-4xl py-8 mx-auto">
+          <Posts/>
+        </div>
     </main>
   )
 }
