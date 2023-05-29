@@ -13,9 +13,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="font-sans flex flex-col justify-center items-center p-8">
-        <Navbar/>
-        {children}
+      <body className="flex items-center justify-center min-h-screen bg-gray-100">
+          <Navbar/>
+          <div className="flex flex-col items-center justify-center h-full">
+            <div className="max-w-4xl py-8 mx-auto">
+              {children}
+            </div>
+        </div>
       </body>
     </html>
   )

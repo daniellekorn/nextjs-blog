@@ -2,14 +2,14 @@ import Link from "next/link";
 
 export default function Navbar() {
     return (
-        <nav className="flex items-center justify-between flex-wrap bg-teal-600 p-6 sticky w-full">
-            <h1 className="flex font-semibold text-xl tracking-tight mr-8">
-                <Link href="/" className="semi-bold text-white">Danielle Korn</Link>
-            </h1>
-            <div className="block flex-grow lg:flex lg:items-center lg:w-auto">
-                <Link href="/about" className="mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">About</Link>
-                <Link href="/posts" className="mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">Blog</Link>
-                <Link href="/contact" className="mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">Contact</Link>
+        <nav className="fixed top-0 flex flex-wrap items-center justify-between w-full px-24 py-4 bg-white border-b">
+            <div className="flex items-center mr-4 bold">
+                <Link href="/">Danielle Korn</Link>
+            </div>
+            <div className="flex items-center mt-4 md:mt-0">
+                    <Link href="/about" className="block mt-2 mr-4 md:inline-block md:mt-0">About</Link>
+                    <Link href="/posts" className="block mt-2 mr-4 md:inline-block md:mt-0">Blog</Link>
+                    <Link href="/contact" className="block mt-2 mr-4 md:inline-block md:mt-0">Contact</Link>
             </div>
         </nav>
     )
