@@ -39,14 +39,12 @@ export default async function Post({ params }: { params: { postId: string } }) {
   const pubDate = getFormattedDate(date);
 
   return (
-    <main className="flex container mx-auto">
-      <div className="flex-col container mx-auto p-10">
-        <h1 className="prose md:prose-lg lg:prose-xl mx-auto">{title}</h1>
-        <p className="prose md:prose-sm lg:prose-md mx-auto">{pubDate}</p>
-        <article className="prose md:prose-md lg:prose-lg mt-8 mx-auto">
+    <main className="container flex py-8 mx-auto">
+      <div className="container flex-col p-10 mx-auto">
+        <article className="mx-auto mt-8 prose md:prose-md lg:prose-lg">
           <section dangerouslySetInnerHTML={{ __html: contentHtml }} />
           <p>
-            <Link href="/" className="prose prose-sm">
+            <Link href="/" className="prose-sm prose">
               ← Back to home
             </Link>
           </p>
