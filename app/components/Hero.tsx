@@ -5,7 +5,7 @@ export default function Hero() {
     <header>
       <div className="container flex items-center justify-between px-4 mx-auto">
         <div className="w-1/2">
-          <div className="flex flex-col justify-center p-8">
+          <div className="flex flex-col justify-center p-20 bg-white">
             <p className="mb-2 font-bold md:text-lg lg:text-xl">
               Overcome self-doubt. Embrace possibilities.
             </p>
