@@ -3,7 +3,7 @@ import Posts from "./components/Posts";
 
 export default function Home() {
   return (
-    <main>
+    <main className="relative">
       <Hero />
       <Posts />
     </main>

@@ -1,5 +1,5 @@
 import { getSortedPostsData } from "@/lib/posts";
-import PostListItem from "./PostListItem";
+import Link from "next/link";
 
 export default function Posts() {
   const posts = getSortedPostsData();
@@ -15,12 +15,12 @@ export default function Posts() {
             <div key={post.id} className="p-6 bg-white rounded-lg shadow-lg">
               <h3 className="mb-2 text-lg font-bold">{post.title}</h3>
               <p className="mb-4 text-gray-700">{post.date}</p>
-              <a
+              <Link
                 href={`/posts/${post.id}`}
                 className="inline-block font-semibold text-teal-500 hover:text-teal-600"
               >
                 Read more
-              </a>
+              </Link>
             </div>
           ))}
         </div>

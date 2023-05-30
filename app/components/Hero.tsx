@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <header className="py-16">
+    <header>
       <div className="container flex items-center justify-between px-4 mx-auto">
         <div className="w-1/2">
           <div className="flex flex-col justify-center p-8">

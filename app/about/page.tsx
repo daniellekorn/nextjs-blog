@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <div className="pt-36">
+    <div>
       <div className="container flex flex-col items-center max-w-6xl mx-auto bg-white p-24">
         <div className="flex items-center">
           <div className="flex flex-col justify-center w-2/3 mb-10">
