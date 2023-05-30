@@ -10,7 +10,7 @@ export default function About() {
             <h2 className="mb-4 text-lg font-bold md:text-3xl lg:text-5xl">
               Hi there, I'm Danielle.
             </h2>
-            <h3 className="max-w-4xl mb-2 text-lg font-semibold md:text-xl lg:text-2xl">
+            <h3 className="text-lg font-semibold md:text-xl lg:text-2xl pr-10">
               As a self-studied Full Stack Developer, I spent much time and
               energy breaking into the world of software development. Then, life
               took an exciting turn when I embraced the incredible experience of
@@ -18,7 +18,7 @@ export default function About() {
               start this blog.
             </h3>
           </div>
-          <div className="flex items-center justify-center w-1/3 mr-8">
+          <div className="flex items-center justify-center w-1/3">
             <Image
               src="/images/headshot.jpg"
               height={300}
