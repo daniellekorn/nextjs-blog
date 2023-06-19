@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Navbar() {
   return (
-    <nav className="sticky top-0 z-50 left-0 right-0 flex items-center justify-center w-full bg-white border-b">
+    <nav className="sticky top-0 left-0 right-0 z-50 flex items-center justify-center w-full bg-white border-b">
       <div className="container flex flex-wrap items-center justify-between px-4 py-4 mx-auto max-w-8xl">
         <div>
           <Link
@@ -30,12 +30,6 @@ export default function Navbar() {
             className="block mt-2 mr-6 leading-tight text-teal-800 semi-bold md:text-lg lg:text-xl md:inline-block md:mt-0 hover:text-teal-600"
           >
             Blog
-          </Link>
-          <Link
-            href="/contact"
-            className="block mt-2 mr-6 leading-tight text-teal-800 semi-bold md:text-lg lg:text-xl md:inline-block md:mt-0 hover:text-teal-600"
-          >
-            Contact
           </Link>
         </div>
       </div>
