@@ -7,7 +7,7 @@ export function generateStaticParams() {
   const posts = getSortedPostsData();
 
   return posts.map((post) => ({
-    postId: post.id,
+    postId: post.slug,
   }));
 }
 
@@ -15,7 +15,7 @@ export function generateMetadata({ params }: { params: { postId: string } }) {
   const posts = getSortedPostsData();
   const { postId } = params;
 
-  const post = posts.find((post) => post.id === postId);
+  const post = posts.find((post) => post.slug === postId);
 
   if (!post) {
     return {
@@ -32,7 +32,7 @@ export default async function Post({ params }: { params: { postId: string } }) {
   const posts = getSortedPostsData();
   const { postId } = params;
 
-  if (!posts.find((post) => post.id === postId)) notFound();
+  if (!posts.find((post) => post.slug === postId)) notFound();
 
   const { title, date, contentHtml } = await getPostData(postId);
 

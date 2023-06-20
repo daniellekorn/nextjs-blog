@@ -3,6 +3,7 @@ import path from 'path'
 import matter from 'gray-matter'
 import { remark } from "remark"
 import html from "remark-html"
+import PostType from '../interfaces/post'
 
 const postsDirectory = path.join(process.cwd(), 'content')
 
@@ -11,7 +12,7 @@ export function getSortedPostsData() {
     const fileNames = fs.readdirSync(postsDirectory);
     const allPostsData = fileNames.map((fileName) => {
         // Remove ".md" from file name to get id
-        const id = fileName.replace(/\.md$/, '');
+        const slug = fileName.replace(/\.md$/, '');
 
         // Read markdown file as string
         const fullPath = path.join(postsDirectory, fileName);
@@ -20,10 +21,12 @@ export function getSortedPostsData() {
         // Use gray-matter to parse the post metadata section
         const matterResult = matter(fileContents);
 
-        const blogPost: BlogPost = {
-            id,
+        const blogPost: PostType = {
+            slug,
             title: matterResult.data.title,
             date: matterResult.data.date,
+            coverImage: matterResult.data.coverImage,
+            excerpt: matterResult.data.excerpt
         }
 
         // Combine the data with the id

@@ -1,11 +1,12 @@
 import Hero from "./components/Hero";
-import Posts from "./components/Posts";
+import RecentPosts from "./components/RecentPosts";
+import { getSortedPostsData } from "@/lib/posts";
 
 export default function Home() {
   return (
     <main className="relative">
       <Hero />
-      <Posts />
+      <RecentPosts />
     </main>
   );
 }

@@ -1,9 +1,9 @@
-import Posts from "../components/Posts";
+import RecentPosts from "../components/RecentPosts";
 
 export default async function PostPage({
   params,
 }: {
   params: { postId: string };
 }) {
-  return <Posts />;
+  return <RecentPosts />;
 }

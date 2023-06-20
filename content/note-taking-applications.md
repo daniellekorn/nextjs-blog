@@ -1,6 +1,8 @@
 ---
 title: 'Get it Together: The Top 7 Note-Taking Applications for Parents'
 date: 05/22/2023
+coverImage: '/images/mom-with-kids-and-phone.jpg'
+excerpt: 'With the right note-taking application, we can conquer our to-do lists, keep track of important information, and maintain a semblance of sanity.'
 ---
 
 # Get it Together: The Top 7 Note-Taking Applications for Parents
