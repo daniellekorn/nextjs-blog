@@ -20,6 +20,12 @@ export default function Navbar() {
         </div>
         <div className="flex items-center mt-4 md:mt-0">
           <Link
+            href="/"
+            className="block mt-2 mr-6 leading-tight text-teal-800 semi-bold md:text-lg lg:text-xl md:inline-block md:mt-0 hover:text-teal-600"
+          >
+            Home
+          </Link>
+          <Link
             href="/about"
             className="block mt-2 mr-6 leading-tight text-teal-800 semi-bold md:text-lg lg:text-xl md:inline-block md:mt-0 hover:text-teal-600"
           >
