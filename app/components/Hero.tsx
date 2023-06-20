@@ -1,8 +1,9 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Hero() {
   return (
-    <header>
+    <div className="h-100">
       <div className="container flex items-center justify-between px-4 mx-auto">
         <div className="w-1/2">
           <div className="flex flex-col justify-center p-20 bg-white">
@@ -18,6 +19,12 @@ export default function Hero() {
               Empowering you to enter the professional tech world, organize your
               life and mind, and even launch your own business.
             </h2>
+            <Link
+              className="p-3 mt-6 text-white bg-teal-600 w-fit"
+              href="/posts"
+            >
+              Start learning
+            </Link>
           </div>
         </div>
         <div className="flex justify-center w-1/2">
@@ -30,6 +37,6 @@ export default function Hero() {
           />
         </div>
       </div>
-    </header>
+    </div>
   );
 }

@@ -1,4 +1,5 @@
 import "./globals.css";
+import Navbar from "./components/Navbar";
 
 export const metadata = {
   title: "Danielle Korn",
@@ -12,6 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <Navbar />
       <body className="bg-gray-100">{children}</body>
     </html>
   );
