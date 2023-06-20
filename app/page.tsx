@@ -1,12 +1,15 @@
 import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
 import RecentPosts from "./components/RecentPosts";
-import { getSortedPostsData } from "@/lib/posts";
 
 export default function Home() {
   return (
-    <main className="relative">
-      <Hero />
-      <RecentPosts />
-    </main>
+    <>
+      <Navbar />
+      <main className="relative">
+        <Hero />
+        <RecentPosts />
+      </main>
+    </>
   );
 }
